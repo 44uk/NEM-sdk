@@ -229,6 +229,10 @@ let txTypeToName = function(id) {
             return 'ImportanceTransfer';
         case TransactionTypes.multisigModification:
             return 'MultisigModification';
+        case TransactionTypes.multisigSignature:
+            return 'MultisigSignature';
+        case TransactionTypes.multisigTransaction:
+            return 'MultisigTransaction';
         case TransactionTypes.provisionNamespace:
             return 'ProvisionNamespace';
         case TransactionTypes.mosaicDefinition:
